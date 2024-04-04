@@ -9,9 +9,9 @@ warnings.filterwarnings('ignore')
 # import spacy
 lemmatizer = nltk.stem.WordNetLemmatizer()
 # Download required NLTK data
-#nltk.download('stopwords') # ----------- python -m nltk.downloader stopwords
-#nltk.download('punkt') # --------------- python -m nltk.downloader punkt
-#nltk.download('wordnet') # ------------- python -m nltk.downloader wordnet
+nltk.download('stopwords') # ----------- python -m nltk.downloader stopwords
+nltk.download('punkt') # --------------- python -m nltk.downloader punkt
+nltk.download('wordnet') # ------------- python -m nltk.downloader wordnet
 
 df = pd.read_csv("Dataset/Mental_Health_FAQ.csv", na_filter=False)
 df = df[['Questions', 'Answers']]
