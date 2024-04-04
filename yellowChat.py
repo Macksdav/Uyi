@@ -86,7 +86,7 @@ st.markdown("<h6 style = 'text-align: center; top-margin: 0rem; color: #64CCC5'>
 
 st.markdown("<br> <br>", unsafe_allow_html= True)
 col1, col2 = st.columns(2)
-col1.image('Dataset\pngwing.com (54).png', caption = 'Mental Health Related Chats')
+col1.image('Dataset/pngwing.com (54).png', caption = 'Mental Health Related Chats')
 
 history = []
 st.sidebar.markdown("<h2 style = 'text-align: center; top-margin: 0rem; color: #64CCC5'>Chat History</h2>", unsafe_allow_html = True)
